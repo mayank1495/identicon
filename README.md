@@ -1,6 +1,14 @@
 # Identicon
 
-**TODO: Add description**
+## Run
+
+Move to the identicon directory. Run elixir with:
+
+    $ iex -S mix
+Then run the main function:
+
+    iex> Identicon.main(<name>)
+Give your name(any string) in place of `name`. A `name.png` file will be created in the same directory.
 
 ## Installation
 
